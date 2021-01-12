@@ -14,6 +14,8 @@
 }
 #info{
     float: left;
+    margin-left: 30px;
+    font-size: 18px;
 }
 #photo{
     float: right;
@@ -37,8 +39,8 @@
 }
 h2{
     font-size: 28px;
-    color: #3388bb;
-    border-bottom: 3px solid #3388dd;
+    color: #ffffffd8;
+    border-bottom: 3px solid   #ffffffd8;
 }
 .whatis{
     font-weight: normal;
@@ -51,6 +53,29 @@ h2{
 }
 body{
     background-color: black;
+    background-image: url(https://thumbs.gfycat.com/HatefulSeveralIbis-max-1mb.gif);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 0%;
+    position: relative;
+}
+a::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 0px;
+    margin: 5px auto 0 auto;
+    height: 2px;
+    border-radius: 2px;
+    background: white;
+    transition: width 0.3s ease-out;
+}
+a:hover::after{
+    width: 100%;
 }
