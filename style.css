@@ -3,3 +3,54 @@
     margin: 0px;
     padding: 0px;
 }
+#page{
+    width: 780px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#infoPhoto{
+    height: 250px;
+}
+#info{
+    float: left;
+}
+#photo{
+    float: right;
+    border-style: dashed;
+    border-radius: 50px;
+    border-color: white;
+    
+}
+.section{
+    margin-bottom: 70px;
+    text-align: justify;
+
+}
+.sec-gauche{
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sec-droite{
+    margin-left: 200px;
+}
+h2{
+    font-size: 28px;
+    color: #3388bb;
+    border-bottom: 3px solid #3388dd;
+}
+.whatis{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 16px;
+}
+.titre{
+    font-weight: bold;
+    font-size: 20px;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
