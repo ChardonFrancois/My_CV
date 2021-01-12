@@ -8,6 +8,7 @@
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    
 }
 #infoPhoto{
     height: 250px;
@@ -56,6 +57,7 @@ body{
     background-image: url(https://thumbs.gfycat.com/HatefulSeveralIbis-max-1mb.gif);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+   
     
 }
 a{
@@ -78,4 +80,12 @@ a::after{
 }
 a:hover::after{
     width: 100%;
+}
+#btn{
+    color: white;
+    background-image: url(https://thumbs.gfycat.com/HatefulSeveralIbis-max-1mb.gif);
+    padding: 15px;
+    font-size: 30px;
+    margin-left: 230px;
+    border: none;
 }
