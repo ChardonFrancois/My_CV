@@ -86,6 +86,11 @@ a:hover::after{
     background-image: url(https://thumbs.gfycat.com/HatefulSeveralIbis-max-1mb.gif);
     padding: 15px;
     font-size: 30px;
-    margin-left: 230px;
-    border: none;
+    margin-left: 130px;
+    border: dashed 4px;
+    border-radius: 10px;
+    border-top: none;
+}
+.st1{
+    font-size: 20px;
 }
