@@ -20,9 +20,11 @@
 }
 #photo{
     float: right;
-    border-style: dashed;
+    border: dashed;
     border-radius: 50px;
     border-color: white;
+    border-width: 5px;
+    
     
 }
 .section{
