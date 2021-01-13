@@ -1,2 +1,2 @@
 # MyCV
-https://chardonfrancois.github.io/myCV/
+https://chardonfrancois.github.io/myCV_HTML-CSS/
